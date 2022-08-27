@@ -44,6 +44,8 @@ body{
 .Board{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width: 250px;
+    height: 250px;
 }
 #play{
     border: white 1px solid;
