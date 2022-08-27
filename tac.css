@@ -47,6 +47,32 @@ body{
     width: 250px;
     height: 250px;
 }
-#play{
-    border: white 1px solid;
+.five{
+    border-right: #f5f3f4 2px solid;
+    border-bottom: #f5f3f4 2px solid;
 } 
+.one{
+    border-right: #f5f3f4 2px solid;
+    border-bottom: #f5f3f4 2px solid;
+}
+.two{
+    border-right: #f5f3f4 2px solid;
+    border-bottom: #f5f3f4 2px solid;
+
+}
+.three{
+    border-bottom: #f5f3f4 2px solid;
+}
+.four{
+    border-bottom: #f5f3f4 2px solid;
+    border-right: #f5f3f4 2px solid;
+}
+.six{
+    border-bottom: #f5f3f4 2px solid;
+}
+.seven{
+    border-right: #f5f3f4 2px solid;
+}
+.eight{
+    border-right: #f5f3f4 2px solid;
+}
