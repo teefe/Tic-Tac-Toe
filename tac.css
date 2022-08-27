@@ -43,5 +43,8 @@ body{
 }
 .Board{
     display: grid;
-    
+    grid-template-columns: repeat(3,1fr);
 }
+#play{
+    border: white 1px solid;
+} 
