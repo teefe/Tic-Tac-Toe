@@ -1,3 +1,6 @@
+:root{
+    --boardcolor:#f5f3f4;
+}
 html{
     margin: 0px;
     padding: 0px;
@@ -9,7 +12,7 @@ body{
 .Game-Container{
     border: 1px solid grey;
     height: 500px;
-    width: 900px;
+    width: 800px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -24,17 +27,18 @@ body{
     align-items: center;
 }
 .players{
-    background-color:#f5f3f4 ;
+    background-color:var(--boardcolor) ;
     width: 100%;
     height: 25%;
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
 }
 .Restart-Btn{
-    background-color:#f5f3f4 ;
+    background-color:var(--boardcolor) ;
     width: 100%;
     height: 15%;
     border-style: none;
@@ -48,31 +52,42 @@ body{
     height: 250px;
 }
 .five{
-    border-right: #f5f3f4 2px solid;
-    border-bottom: #f5f3f4 2px solid;
+    border-right: var(--boardcolor) 2px solid;
+    border-bottom: var(--boardcolor) 2px solid;
 } 
 .one{
-    border-right: #f5f3f4 2px solid;
-    border-bottom: #f5f3f4 2px solid;
+    border-right: var(--boardcolor) 2px solid;
+    border-bottom: var(--boardcolor) 2px solid;
 }
 .two{
-    border-right: #f5f3f4 2px solid;
-    border-bottom: #f5f3f4 2px solid;
-
+    border-right: var(--boardcolor) 2px solid;
+    border-bottom: var(--boardcolor) 2px solid;
 }
 .three{
-    border-bottom: #f5f3f4 2px solid;
+    border-bottom:  var(--boardcolor) 2px solid;
 }
 .four{
-    border-bottom: #f5f3f4 2px solid;
-    border-right: #f5f3f4 2px solid;
+    border-bottom: var(--boardcolor) 2px solid;
+    border-right: var(--boardcolor) 2px solid;
 }
 .six{
-    border-bottom: #f5f3f4 2px solid;
+    border-bottom: var(--boardcolor) 2px solid;
 }
 .seven{
-    border-right: #f5f3f4 2px solid;
+    border-right: var(--boardcolor) 2px solid;
 }
 .eight{
-    border-right: #f5f3f4 2px solid;
+    border-right: var(--boardcolor) 2px solid;
+}
+#player{
+    border:#a4161a 2px solid;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#player:focus{
+    background-color: black;
 }
